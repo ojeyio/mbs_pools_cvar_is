@@ -1,14 +1,4 @@
-cvaar_project/
-├─ data/                         # put loan CSV(s) here (optional)
-├─ output/                       # experiment outputs (CSV/PNG)
-├─ cvaar_experiments.py          # main runner (MC vs static IS, with auto-calibration)
-├─ loan_pool_generator.py        # load CSV, build loan pool
-├─ mbs_loss_generator.py         # aggregate pool + wrapper for loans
-├─ weight_diag.py                # save sample-level losses & weights for diagnostics
-├─ make_poster_figs.py           # create poster-ready PNGs from outputs
-├─ make_plots.py                 # (optional helper)
-├─ requirements.txt
-└─ README.md                     # this file
+**This is a personal project related to Financial Engineering**
 
 **MacOS**
 /usr/bin/python3 -m venv venv
